@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/eventitem_detail_container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="de.whitesoft.android.eventmanager.ui.EventItemDetailActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/eventImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/imageDescription"
+            android:src="@drawable/example_picture" />
+
+        <TextView
+            android:id="@+id/eventTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="@string/eventTitle"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="top"
+            android:textAlignment="gravity"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:baselineAligned="false"
+            android:showDividers="middle"
+            android:textAlignment="center"
+            android:layout_weight="75">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="12. 03"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal|right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Samstag"
+                android:id="@+id/textView2"
+                android:layout_gravity="right"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center|right"
+                android:src="@drawable/ic_stat_event_service" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
+
+
+            <TextView
+                android:id="@+id/eventDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="26dip"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/eventDescription"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:textAlignment="center"
+        android:layout_marginTop="-50dp">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:maxWidth="150dp"
+            android:maxHeight="50dp"
+            android:stepSize="10" />
+
+    </LinearLayout>
+</LinearLayout>

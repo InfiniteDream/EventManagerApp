@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Event-Manager</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_sync">Synchronisieren</string>
+    <string name="title_activity_create_notification">CreateNotificationActivity</string>
+    <string name="title_activity_notification_receiver">NotificationReceiverActivity</string>
+    <string name="event_service_notification_title_template">Event service: %1$s</string>
+    <string name="event_service_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_event_show">EventShowActivity</string>
+    <string name="eventDescription">Description</string>
+    <string name="eventTitle">Example application</string>
+    <string name="imageDescription">TODO</string>
+    <string name="eventAlarmOn">Alarm</string>
+    <string name="title_eventitem_list">Nächste Events</string>
+    <string name="title_eventitem_detail">Event Information</string>
+    <string name="action_account">Account</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="title_activity_maps">Umkreis Suche</string>
+    <string name="lokation_strasse_title">Straße...</string>
+    <string name="lokation_ort_title">Frankfurt</string>
+    <string name="title_activity_service_manager">Service Manager</string>
+
+
+    <!-- Main Menu -->
+    <string name="title_activity_main">Event-Manager</string>
+    <string name="main_menu_title_event_list">Nächste Events</string>
+    <string name="main_menu_title_settings">Einstellungen</string>
+    <string name="main_menu_title_account">Mein Account</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+</resources>

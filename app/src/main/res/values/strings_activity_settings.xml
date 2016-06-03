@@ -1,0 +1,88 @@
+<resources>
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <!-- ANZEIGE -->
+
+    <string name="pref_anzeige_header">Anzeige</string>
+
+    <string name="pref_events_service_title">Event Service</string>
+    <string-array name="pref_events_service_list_titles">
+        <item>Müllabfuhr Kalendar</item>
+        <item>Avicenna e.V.</item>
+        <item>CAP Frankfurt</item>
+    </string-array>
+    <string-array name="pref_events_service_list_values">
+        <item>garbagecalendar-checked</item>
+        <item>avicenna-checked</item>
+        <item>cap-checked</item>
+    </string-array>
+    <string-array name="pref_events_service_default_values">
+        <item>garbagecalendar-default</item>
+        <item>avicenna-default</item>
+        <item>cap-default</item>
+    </string-array>
+
+    <string name="pref_anzeige_lokation_title">Umkreis suche</string>
+    <string name="pref_anzeige_lokation_content">Frankfurt</string>
+    <string name="pref_lokation_strasse">Straße</string>
+    <string name="pref_lokation_city">Stadt</string>
+    <string name="pref_lokation_plz">PLZ</string>
+
+    <string name="pref_events_anzeigen_zeitraum_title">Events Fenster</string>
+    <string-array name="pref_events_anzeigen_zeitraum_list_titles">
+        <item>1 Tag</item>
+        <item>7 Tage</item>
+        <item>15 Tage</item>
+        <item>30 Tage</item>
+    </string-array>
+    <string-array name="pref_events_anzeigen_zeitraum_list_values">
+        <item>1</item>
+        <item>7</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+
+
+
+    <!-- Aktualisierung -->
+
+    <string name="pref_aktualisierung_header">Aktualisierung</string>
+
+    <string name="pref_aktualisierung__datenabfragen_title">Daten Abfragen</string>
+    <string-array name="pref_aktualisierung__datenabfragen_titles">
+        <item>Stündlich</item>
+        <item>Täglich</item>
+        <item>Wöchentlich</item>
+        <item>1 Min. TEST</item>
+    </string-array>
+    <string-array name="pref_aktualisierung__datenabfragen_values">
+        <item>3600000</item>
+        <item>86400000</item>
+        <item>604800000</item>
+        <item>60000</item>
+    </string-array>
+
+    <!-- ALARM -->
+
+    <string name="pref_alarm_header">Alarm</string>
+
+    <string name="pref_alarm_aktivieren_title">Alarm</string>
+    <string name="pref_alarm_ringtone_title">Ringtone</string>
+    <string name="pref_alarm_ringtone_silent">Lautlos</string>
+    <string name="pref_alarm_vibrate">Vibration</string>
+
+    <string name="pref_events_alarm_zeitraum_title">Alarm Auslösen</string>
+    <string-array name="pref_events_alarm_zeitraum_list_titles">
+        <item>bevor 1 Tag</item>
+        <item>bevor 3 Tage</item>
+        <item>bevor 7 Tage</item>
+        <item>bevor 15 Tage</item>
+    </string-array>
+    <string-array name="pref_events_alarm_zeitraum_list_values">
+        <item>24</item>
+        <item>72</item>
+        <item>168</item>
+        <item>360</item>
+    </string-array>
+
+</resources>
