@@ -4,7 +4,7 @@ android {
         config {
             keyAlias 'EventManager'
             keyPassword 'Istanbul!453'
-            storeFile file('./eventmanager_keystore.jks')
+            storeFile file('../eventmanager_keystore.jks')
             storePassword 'Istanbul!453'
         }
     }
